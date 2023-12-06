@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.sulman.todolist.ui.activity.MainActivity">
+    <item
+        android:id="@+id/backup_button"
+        android:title="Backup"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_backup_24" />
+    <item
+        android:id="@+id/online_mode"
+        android:title="Online Mode" />
+    <item
+        android:id="@+id/offline_mode"
+        android:title="Offline Mode" />
+</menu>
